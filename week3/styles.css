@@ -6,10 +6,6 @@ table {
   border: 1px solid black;
 }
 
-#table1 tfoot td {
-  border: none;
-}
-
 #table1 th {
   background-color: #aaa;
   font-family: Georgia, "Times New Roman", serif;
@@ -36,6 +32,11 @@ table {
   border: 1px solid #993738;
 }
 
+#table2 th {
+
+  color: #fff;
+}
+
 #table2 .region {
   text-align: left;
   width: 185px;
@@ -46,11 +47,16 @@ table {
   width: 100px;
 }
 
-#table2 th.region td {
+#table2 th {
   color: #fff;
   font-size: 16px;
+  background-color: #993738;
 }
 
 #table2 .odd td {
   background-color: #aaa;
+}
+
+#table2 tfoot td {
+  border: none;
 }
