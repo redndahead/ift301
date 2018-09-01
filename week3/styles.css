@@ -8,13 +8,13 @@
 
 #table1 th {
   background-color: #aaa;
-  font-family: Georgia, "Times New Roman";
+  font-family: Georgia, "Times New Roman", serif;
   font-size: 16px;
   padding-bottom: 5px;
 }
 
 #table1 td {
-  font-family: Arial, "Times New Roman";
+  font-family: Arial, "Times New Roman", serif;
   font-size: 14px;
   padding-bottom: 5px;
   text-align: center;
