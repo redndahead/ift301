@@ -1,12 +1,8 @@
-table {
-  border-collapse: collapse;
-}
-
-th, td {
+#table1 th, td {
   border: 1px solid black;
 }
 
-tfoot td {
+#table1 tfoot td {
   border: none;
 }
 
@@ -25,9 +21,32 @@ tfoot td {
 }
 
 #table1 .movie-title {
-  width: 200px;
+  width: 85px;
 }
 
 #table1 .movie-price {
-  width: 200px;
+  width: 80px;
+}
+
+#table2 th, td {
+  border: 1px solid #993738;
+}
+
+#table2 .region {
+  text-align: left;
+  width: 185px;
+}
+
+#table2 .percentage {
+  text-align: right;
+  width: 100px;
+}
+
+#table2 th.region td {
+  color: #fff;
+  font-size: 16px;
+}
+
+#table2 .odd td {
+  background-color: #aaa;
 }
