@@ -30,6 +30,10 @@ table {
   text-align: center;
 }
 
+h2 {
+  color: #993738;
+}
+
 #table2 th, #table2 td {
   border: 1px solid #993738;
 }
