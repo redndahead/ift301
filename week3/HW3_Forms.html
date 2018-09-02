@@ -22,15 +22,13 @@
   <label for="zip">Zip Code</label>
   <input type="text" name="zip" id="zip" /><br />
   <label for="cardtype">credit Card Type</label>
-  <select type="radio" name="cardtype" id="cardtype">
-    <option value="MasterCard">MasterCard</option>
-    <option value="VISA">VISA</option>
-    <option value="Discover">Discover</option>
-  </select><br />
+  <input type="radio" name="cardtype" value="MasterCard" />MasterCard<br />
+  <input type="radio" name="cardtype" value="VISA" />VISA<br />
+  <input type="radio" name="cardtype" value="Discover" />Discover<br />
   <label for="cardnum">Credit Card Number</label>
   <input type="text" name="cardnum" id="cardnum" /><br />
   <label>First Name</label>
-  <select type="text" name="expMonth" id="expMonth">
+  <select name="expMonth" id="expMonth">
     <option value="none">--Month--</option>
     <option value="Jan">Jan</option>
     <option value="Feb">Feb</option>
@@ -45,7 +43,7 @@
     <option value="Nov">Nov</option>
     <option value="Dec">Des</option>
   </select>
-  <select type="text" name="expMonth" id="expYear">
+  <select name="expMonth" id="expYear">
     <option value="none">--Year--</option>
     <option value="2018">2018</option>
     <option value="2019">2019</option>
