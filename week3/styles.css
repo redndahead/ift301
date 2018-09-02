@@ -11,21 +11,23 @@ table {
   font-family: Georgia, "Times New Roman", serif;
   font-size: 16px;
   padding-bottom: 5px;
+  text-align: center;
 }
 
 #table1 td {
   font-family: Arial, "Times New Roman", serif;
   font-size: 14px;
   padding-bottom: 5px;
-  text-align: center;
+
 }
 
-#table1 .movie-title {
+#table1 .title {
   width: 85px;
 }
 
-#table1 .movie-price {
+#table1 .price {
   width: 80px;
+  text-align: center;
 }
 
 #table2 th, #table2 td {
