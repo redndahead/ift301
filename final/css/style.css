@@ -1,0 +1,75 @@
+/*
+ General
+ */
+a {
+  color: #00747C;
+}
+
+a:hover {
+  color: #00BBC9;
+}
+
+/*
+  Header
+ */
+.header-logo {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 40px;
+  color: #00747C;
+}
+
+.header-logo:hover {
+  color: #00747C;
+  text-decoration: none;
+}
+
+/*
+  Navigation
+ */
+nav a.active {
+  border-bottom: 3px solid #878787;
+}
+
+nav a:hover {
+  text-decoration: none;
+  border-bottom: 3px solid #878787;
+}
+
+/*
+  Home Page Carousel
+ */
+
+.carousel-jumbotron {
+  background-color: #999;
+  padding-top: 20px;
+  padding-bottom: 0;
+}
+
+.carousel-caption {
+  background-color: rgba(48, 48, 48, 0.6);
+  max-width: 100%;
+  width:100%;
+  left: 0;
+}
+
+#carousel-thumbnails {
+  height: 100px;
+}
+
+#carousel-thumbnails ul {
+  list-style-type: none;
+}
+
+#carousel-thumbnails li {
+  float: left;
+  padding-right: 30px;
+}
+
+#carousel-thumbnails img {
+  width: 150px;
+}
+
+#carousel-thumbnails li.active img {
+  width: 155px;
+  border: 3px solid #444;
+}
