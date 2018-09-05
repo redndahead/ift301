@@ -1,0 +1,75 @@
+@keyframes changeHourValues {
+  0% {
+    content: "0 Hours";
+  }
+  5% {
+    content: "200 Hours";
+  }
+  10% {
+    content: "400 Hours";
+  }
+  15% {
+    content: "600 Hours";
+  }
+  20% {
+    content: "800 Hours";
+  }
+  25% {
+    content: "1000 Hours";
+  }
+  30% {
+    content: "1200 Hours";
+  }
+  35% {
+    content: "1400 Hours";
+  }
+  40% {
+    content: "1600 Hours";
+  }
+  45% {
+    content: "1800 Hours";
+  }
+  50% {
+    content: "2000 Hours";
+  }
+  55% {
+    content: "2200 Hours";
+  }
+  60% {
+    content: "2400 Hours";
+  }
+  65% {
+    content: "2600 Hours";
+  }
+  70% {
+    content: "2800 Hours";
+  }
+  75% {
+    content: "3000 Hours";
+  }
+  80% {
+    content: "3200 Hours";
+  }
+  85% {
+    content: "3400 Hours";
+  }
+  90% {
+    content: "3600 Hours";
+  }
+  95% {
+    content: "3800 Hours";
+  }
+}
+.hours-element {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hours-element:after {
+  animation: changeHourValues 1s linear;
+  display: block;
+  content: "4000 Hours";
+  font-size: 80px;
+}
+
+/*# sourceMappingURL=hour-counter.css.map */

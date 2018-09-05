@@ -1,0 +1,25 @@
+$total: 4000;
+@keyframes changeHourValues {
+  $i: 0;
+  $count: 0;
+  $multiple: 5;
+  @while $i < $total {
+    #{$count * 1%} {
+      content: $i + " Hours";
+    }
+    $i: $i + round($total*$multiple/100);
+    $count: $count + $multiple;
+  }
+}
+
+.hours-element {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &:after {
+    animation: changeHourValues 1s linear;
+    display: block;
+    content: $total + " Hours";
+    font-size: 80px;
+  }
+}

@@ -1,0 +1,25 @@
+$total: 85;
+@keyframes changeValues {
+  $i: 0;
+  $count: 0;
+  $multiple: 5;
+  @while $i < $total {
+    #{$count * 1%} {
+      content: $i + "%";
+    }
+    $i: $i + round($total*$multiple/100);
+    $count: $count + $multiple;
+  }
+}
+
+.dedication-element {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &:after {
+    animation: changeValues 1s linear;
+    display: block;
+    content: $total + "%";
+    font-size: 80px;
+  }
+}
