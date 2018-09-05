@@ -1,0 +1,81 @@
+@keyframes changeValues {
+  0% {
+    content: "0%";
+  }
+  5% {
+    content: "4%";
+  }
+  10% {
+    content: "8%";
+  }
+  15% {
+    content: "12%";
+  }
+  20% {
+    content: "16%";
+  }
+  25% {
+    content: "20%";
+  }
+  30% {
+    content: "24%";
+  }
+  35% {
+    content: "28%";
+  }
+  40% {
+    content: "32%";
+  }
+  45% {
+    content: "36%";
+  }
+  50% {
+    content: "40%";
+  }
+  55% {
+    content: "44%";
+  }
+  60% {
+    content: "48%";
+  }
+  65% {
+    content: "52%";
+  }
+  70% {
+    content: "56%";
+  }
+  75% {
+    content: "60%";
+  }
+  80% {
+    content: "64%";
+  }
+  85% {
+    content: "68%";
+  }
+  90% {
+    content: "72%";
+  }
+  95% {
+    content: "76%";
+  }
+  100% {
+    content: "80%";
+  }
+  105% {
+    content: "84%";
+  }
+}
+.dedication-element {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dedication-element:after {
+  animation: changeValues 1s linear;
+  display: block;
+  content: "85%";
+  font-size: 80px;
+}
+
+/*# sourceMappingURL=dedication.css.map */
