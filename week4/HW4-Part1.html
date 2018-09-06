@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Habitat For Humanity</title>
+  <link rel="stylesheet" href="hw41.css" />
+</head>
+<body>
+<header>
+  <img src="habitat_logo.png" />
+</header>
+<div class="container">
+  <aside>
+    <ul>
+      <li>
+        <a href="http://www.habitat.org/about" >Learn more</a>
+      </li>
+      <li>
+        <a href="http://www.habitat.org/volunteer" >Volunteer</a>
+      </li>
+      <li>
+        <a href="http://www.habitat.org/about/advocacy" >Advocate</a>
+      </li>
+      <li>
+        <a href="https://www.habitat.org/donate/" >Donate</a>
+      </li>
+    </ul>
+  </aside>
+  <main>
+    <h1>Registration Form</h1>
+    <p>
+      Habitat for Humanity needs volunteers. Do you want to help? Complete the registration form and join our worldwide
+      fight against substandard housing.
+    </p>
+    <form>
+      <fieldset>
+        <legend>Personal Information:</legend>
+        <label for="title">Title: </label><input type="text" name="title" id="title" /><br />
+        <label for="fname">First Name: </label><input type="text" name="fname" id="fname" /><br />
+        <label for="lname">Last Name: </label><input type="text" name="lname" id="lname" /><br />
+        <label for="dob">Date of Birth: </label><input type="text" name="dob" id="dob" /><br />
+        <label for="skill">Best Home Building Skill:</label><br />
+        <textarea type="text" name="skill" id="skill" placeholder="Carpentry"></textarea>
+      </fieldset>
+      <fieldset>
+        <legend>Experience:</legend>
+        <label for="experience">Years of Home Building Experience: </label><span>0</span><input type="range" min="0" max="10" value="0" class="slider" id="experience"><span>10+</span><br /><br />
+        <label for="numHouses">Number of Habitat Homes Built: </label><input type="number" name="dob" id="numHouses" /><br /><br />
+        <input type="submit" value="Submit Form" /> <input type="submit" value="Submit Form to a New Window" />
+      </fieldset>
+    </form>
+  </main>
+</div>
+
+</body>
+</html>
