@@ -73,24 +73,28 @@ nav a:hover {
 
 #carousel-thumbnails {
   height: 100px;
-}
-
-#carousel-thumbnails ul {
-  list-style-type: none;
-}
-
-#carousel-thumbnails li {
-  float: left;
-  padding-right: 30px;
+  margin-left: 0;
+  margin-top: 20px;
 }
 
 #carousel-thumbnails img {
   width: 150px;
+  margin-right: 10px;
 }
 
-#carousel-thumbnails li.active img {
+#carousel-thumbnails img:hover {
+  cursor: pointer;
+}
+
+#carousel-thumbnails img.active {
   width: 155px;
   border: 3px solid #444;
+}
+
+@media only screen and (max-width: 767px) {
+  #carousel-thumbnails {
+    display: none;
+  }
 }
 
 /*
