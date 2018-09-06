@@ -16,7 +16,7 @@ div.container {
 
 aside {
   float: left;
-  width: 200px;
+  width: 130px;
   background-color: rgba(204, 204, 204, .6);
   position: absolute;
   height: 500px;
@@ -25,6 +25,7 @@ aside {
 aside ul {
   list-style: none;
   width: 85px;
+  padding-left: 5px;
 }
 
 aside li {
@@ -47,7 +48,7 @@ aside a:hover {
 
 main {
   float: left;
-  margin-left: 210px;
+  margin-left: 140px;
   height: 500px;
 }
 
