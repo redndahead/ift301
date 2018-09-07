@@ -1,0 +1,61 @@
+/*
+  Carousel
+ */
+
+.carousel-jumbotron {
+  background-color: #999;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.carousel-jumbotron a, .carousel-jumbotron a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  width: 48px;
+  height: 48px;
+}
+
+.carousel-caption {
+  background-color: rgba(48, 48, 48, 0.6);
+  max-width: 100%;
+  width:100%;
+  left: 0;
+  padding: 20px 5px 0 5px;
+}
+
+.carousel-caption h5 {
+  font-size: 35px;
+}
+
+.carousel-caption p {
+  font-size: 20px;
+}
+
+#carousel-thumbnails {
+  height: 100px;
+  margin-left: 0;
+  margin-top: 20px;
+}
+
+#carousel-thumbnails img {
+  width: 150px;
+  margin-right: 10px;
+}
+
+#carousel-thumbnails img:hover {
+  cursor: pointer;
+}
+
+#carousel-thumbnails img.active {
+  width: 155px;
+  border: 3px solid #444;
+}
+
+@media only screen and (max-width: 767px) {
+  #carousel-thumbnails {
+    display: none;
+  }
+}

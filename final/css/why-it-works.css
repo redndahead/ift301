@@ -1,0 +1,37 @@
+#wiw-items h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+#wiw-items img {
+  width: 100%;
+}
+
+#wiw-items .row {
+  margin-bottom: 30px;
+}
+
+#wiw-items p.huge {
+  font-size: 48px;
+  text-align: center;
+}
+
+#wiw-items p.large {
+  font-size: 30px;
+  text-align: center;
+}
+
+#wiw-items p.medium {
+  font-size: 17px;
+  text-align: center;
+}
+
+.wiw-item-inner {
+  padding: 20px;
+  border: 5px solid #00747C;
+  min-height: 100%;
+}
+
+#wiw-items .wiw-item-1 {
+  padding-left: 0;
+}

@@ -1,0 +1,15 @@
+#about-us-items {
+  margin-bottom: 20px;
+}
+#about-us-items img {
+  width: 100%;
+}
+
+#about-us-items .row {
+  border-bottom: 3px solid #00747C;
+  padding-top: 10px;
+}
+
+#about-us-items .row:last-of-type {
+  border-bottom: none;
+}
