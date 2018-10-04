@@ -34,3 +34,8 @@ nav a:hover {
   text-decoration: none;
   border-bottom: 3px solid #878787;
 }
+
+main {
+  background-color: antiquewhite;
+  padding-bottom: 10px;
+}
